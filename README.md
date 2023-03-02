@@ -1,0 +1,2 @@
+# Jokempo
+ Pedra, Papel, Tesoura
