@@ -1,6 +1,9 @@
 # Projeto Jokenpô
  ### Pedra, Papel, Tesoura
  
+ #### Link do jogo
+   [Game-Jokenpo](http://jokenpo.s3-website-sa-east-1.amazonaws.com/)
+ 
  ### Projeto
  Usando Angular criei um jogo de jokenpô, jogamos contra o computador tendo um placar contando os pontos dos jogadores
  
