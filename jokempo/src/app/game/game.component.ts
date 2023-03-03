@@ -11,6 +11,9 @@ export class GameComponent {
   public escolha:number = 3
   public escolhaMaquina:number = 3
 
+  public placarJogador:number = 0
+  public placarMaquina:number = 0
+
   public imagens:Array<any>=[
     '../../assets/pedra.png',
     '../../assets/papel.png',
@@ -32,11 +35,13 @@ export class GameComponent {
       if(this.escolhaMaquina === 1){ // Verificando a escolha da maquina / Papel
 
         console.log('Você perdeu') // Resposta da disputa
+        this.placarMaquina++
 
       }
       else if(this.escolhaMaquina === 2){ // Verificando a escolha da maquina / Tesoura
 
         console.log('Você ganhou') // Resposta da disputa
+        this.placarJogador++
 
       }
       else{ // Verificando a escolha da maquina / Pedra
@@ -53,10 +58,13 @@ export class GameComponent {
       if(this.escolhaMaquina === 2){ // Verificando a escolha da maquina / Tesoura
 
         console.log('Você perdeu') // Resposta da disputa
+        this.placarMaquina++
+
 
       }else if(this.escolhaMaquina === 0){ // Verificando a escolha da maquina / Pedra
 
         console.log('Você ganhou') // Resposta da disputa
+        this.placarJogador++
 
       }else{ // Verificando a escolha da maquina / Papel
 
@@ -72,10 +80,13 @@ export class GameComponent {
       if(this.escolhaMaquina === 0){ // Verificando a escolha da maquina / Pedra
 
         console.log('Você perdeu') // Resposta da disputa
+        this.placarMaquina++
+
 
       }else if(this.escolhaMaquina === 1){ // Verificando a escolha da maquina / Papel
 
         console.log('Você ganhou') // Resposta da disputa
+        this.placarJogador++
 
       }else{ // Verificando a escolha da maquina / Pedra
 
