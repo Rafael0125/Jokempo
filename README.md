@@ -2,7 +2,15 @@
  ### Pedra, Papel, Tesoura
  
  ### Projeto
- Um jogo de jokenpô contra o computador com placar contando os pontos dos jogadores
+ Usando Angular criei um jogo de jokenpô, jogamos contra o computador tendo um placar contando os pontos dos jogadores
+ 
+ 
+ #### Tecnologias usadas:
+   - TypeScript
+   - CSS
+   - HTML
+ 
+ 
 
 <div align="center">
 
