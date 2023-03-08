@@ -1,6 +1,6 @@
 
 <div class="container"> <!-- Container -- Inicio -->
-    <div class="col mt-5 "> <!-- Coluna Principal -- Inicio -->
+    <div class="col mt-4 "> <!-- Coluna Principal -- Inicio -->
 
         <div class="row text-white justify-content-end mr-auto flex-nowrap"> <!-- Placar -- Inicio -->
             <div class="col-md-3">
@@ -14,6 +14,10 @@
                         Maquina
                         <h1> {{placarMaquina}} </h1>
                     </div> <!-- Placar da Maquina -- Fim -->
+                    <div class="col d-flex justify-content-end">
+                        <button type="button" (click)="reiniciarJogo()" class="btn btn-secondary"> Recomeçar </button>
+
+                    </div>
                 </div>
             </div>
         </div> <!-- Placar -- Fim -->
@@ -32,7 +36,7 @@
 
         <div class="row justify-content-center "> <!-- Botões de escolhas -- Inicio -->
 
-            <div class="row justify-content-center m-2 flex-nowrap border p-1">
+            <div class="row justify-content-center m-1 flex-nowrap p-1">
 
                 <div class="col">
                     <button type="button" class="btn btn-lg btn-primary" (click)='escolherSimbolo($event)'>Pedra</button>                   
@@ -45,11 +49,7 @@
                 <div class="col">
                     <button type="button" class="btn btn-lg btn-primary" (click)='escolherSimbolo($event)'>Tesoura</button>                    
                 </div>
-
             </div>
-
         </div> <!-- Botões de escolhas -- Fim -->
-
     </div> <!-- Coluna Principal -- Fim -->
-
 </div> <!-- Container -- Fim -->

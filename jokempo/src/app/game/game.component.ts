@@ -99,5 +99,11 @@ export class GameComponent {
   } // Função para verificar o retorno dos botões / FIM
 
 
+  public reiniciarJogo():void{
+    this.escolha = 3
+    this.escolhaMaquina = 3
+    this.placarJogador = 0
+    this.placarMaquina = 0
+  }
 
 }
